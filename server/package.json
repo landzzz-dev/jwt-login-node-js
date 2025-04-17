@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server-side for JWT Login Express.js",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/landzzz-dev/jwt-login-node-js.git"
+  },
+  "keywords": [
+    "JWT",
+    "Node.js",
+    "Express.js"
+  ],
+  "author": "LandzDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/landzzz-dev/jwt-login-node-js/issues"
+  },
+  "homepage": "https://github.com/landzzz-dev/jwt-login-node-js#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.13.0"
+  }
+}

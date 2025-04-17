@@ -1,0 +1,34 @@
+GET http://localhost:3000/api/artists
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImxhbmR6ZGV2IiwiaWF0IjoxNzQyMTI0NTQ4LCJleHAiOjE3NDIxMjQ1Njh9.oF5KGQbkvBWwDYNZ50fujSOSmGwzmQNGvyB2Q4ssfAw
+
+###
+
+POST http://localhost:3000/auth/token
+Content-Type: application/json
+
+{
+    "token": ""
+}
+
+###
+
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+    "username": "landzdev",
+    "email": "landz@gmail.com",
+    "password": "admin"
+}
+
+###
+
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+    "name": "Landz",
+    "username": "landzdev",
+    "email": "landz@gmail.",
+    "password": "adminadmin"
+}
